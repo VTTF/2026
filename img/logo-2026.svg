@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 740" width="1024" height="740" role="img" aria-label="2026 VTTF Panel">
+  <title>2026 VTTF Panel</title>
+  <defs>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fdcff"/>
+      <stop offset="1" stop-color="#b4f0ff"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#00b4ef" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <!-- sun / chip node -->
+    <circle cx="768" cy="152" r="32"/>
+    <path d="M672 32 L722 96 M768 10 V90 M865 32 L810 96 M812 188 L865 248"/>
+    <!-- top traces -->
+    <path d="M168 155 H205 L275 78 H447 L527 155 H733 M803 152 H925"/>
+    <path d="M409 155 H465 L505 188 H715"/>
+    <path d="M636 252 L668 222 H760 V190"/>
+    <!-- bottom traces -->
+    <path d="M105 430 L165 500 H365 L420 545 H515"/>
+    <path d="M95 522 L155 578 H205 L240 545 H350 L425 605 H510 L575 665 H715"/>
+    <path d="M262 637 H470 L535 700 H618"/>
+    <!-- via rings -->
+    <circle cx="152" cy="155" r="16" fill="#0b1030" stroke-width="12"/>
+    <circle cx="393" cy="155" r="16" fill="#0b1030" stroke-width="12"/>
+    <circle cx="621" cy="265" r="16" fill="#0b1030" stroke-width="12"/>
+    <circle cx="78" cy="507" r="16" fill="#0b1030" stroke-width="12"/>
+    <circle cx="245" cy="637" r="16" fill="#0b1030" stroke-width="12"/>
+    <circle cx="638" cy="705" r="16" fill="#0b1030" stroke-width="12"/>
+  </g>
+  <g fill="url(#fill)" stroke="#00b4ef" stroke-width="9" stroke-linejoin="round" paint-order="stroke" font-weight="900">
+    <text font-weight="900" x="0" y="428" font-family="'Bodoni MT','Didot','Times New Roman','Liberation Serif','Nimbus Roman','DejaVu Serif',serif" font-size="215" textLength="462" lengthAdjust="spacingAndGlyphs">2026</text>
+    <text font-weight="900" x="508" y="440" font-family="Arial,'Helvetica Neue','Liberation Sans','Nimbus Sans','DejaVu Sans',sans-serif" font-size="215" textLength="492" lengthAdjust="spacingAndGlyphs">VTTF</text>
+    <text font-weight="900" x="515" y="585" font-family="'Bodoni MT','Didot','Times New Roman','Liberation Serif','Nimbus Roman','DejaVu Serif',serif" font-size="165" textLength="436" lengthAdjust="spacingAndGlyphs">Panel</text>
+  </g>
+</svg>
