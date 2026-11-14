@@ -718,6 +718,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
+/* Keep every speaker photo the same size: fill the column, crop to a square
+   (anchored near the top so faces are kept), even if the source image is
+   small or not square. */
+#speakers .speaker img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center top;
+}
+
 #speakers .speaker .details {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
